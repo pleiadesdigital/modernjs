@@ -1,18 +1,55 @@
 // CHAPTER 2
+// VID007 Data Types
+// Null -> intentional empty value
+
+// PRIMITIVE TYPES
+// Strings
+/* const name = 'John Doe';
+console.log(typeof name);
+// Numbers
+const age = 45;
+console.log(typeof age);
+// Booleans
+const hasKids = true;
+console.log(typeof hasKids);
+// Null
+const car = null;
+console.log(typeof null);
+// Undefined
+let test;
+console.log(typeof test);
+// Symbol
+const sym = Symbol();
+console.log(typeof sym); */
+
+// REFERENCE TYPES - Objects
+// Array
+/* const hobbies = ['movies', 'music', 'racquetball'];
+console.log(typeof hobbies);
+// Object Literal
+const address = {
+  city: 'Boston',
+  state: 'MA'
+}
+console.log(typeof address);
+// Date
+const today = new Date();
+console.log(today);
+
+console.log(typeof today); */
+
+
 
 // VID006 Variables
-
 // LET
 /* let name = 'John Doe';
 console.log(name);
 name = "Scarlett Johansson"; */
-
 // CONST
-const name = 'Jennifer';
+/* const name = 'Jennifer';
 console.log(name);
-//name = "Sara"; can't reassign
+// name = "Sara"; can't reassign
 // const greeting; must be initialized to some kind of value
-
 const person = {
   name: 'Ann',
   age: 29
@@ -20,21 +57,12 @@ const person = {
 person.name = 'Sara';
 person.age = 31;
 console.log(person);
-
 const numbers = [1, 2, 3, 4];
 numbers.push(5);
 console.log(numbers);
 numbers.pop();
 console.log(numbers);
-
-
-
-
-
-
-
-
-
+ */
 
 // var (ancient), let (new), const (new)
 /* var name = 'John Doe';
